@@ -6,8 +6,8 @@ require('./lib/frequency.rb')
 get('/form') do
   erb(:form)
 end
-binding.pry
+
 get('/answer') do
-  @frequency = params.fetch('frequency').frequency()
-  erb(:frequency)
+  @frequency = params.fetch('phrase').frequency(params.fetch('word'))
+  erb(:answer)
 end
