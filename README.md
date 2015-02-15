@@ -1,10 +1,10 @@
 ***
 Frequency
 ==========
-***
 
 **Frequency is a program that returns the number of times
 the inputted word appears in the inputted phrase.**
+***
 
 
 Installation
