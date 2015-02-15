@@ -1,7 +1,7 @@
 class String
 
   define_method(:frequency) do |word|
-    words = self.split()
+    words = self.downcase.split()
     freq = Hash.new(0)
     words.each do |word|
       freq[word] += 1
@@ -9,7 +9,7 @@ class String
     if words.include?(word)
       freq[word]
     else
-      "No luck ... please enter a word included in the phrase."
+      "Actually...no luck. &#9760 The word must be included in the phrase."
     end
   end
 

@@ -3,7 +3,7 @@ require('sinatra/reloader')
 also_reload('lib/**/*.rb')
 require('./lib/frequency.rb')
 
-get('/form') do
+get('/') do
   erb(:form)
 end
 
