@@ -1,7 +1,7 @@
 class String
 
   define_method(:frequency) do |word|
-    words = self.downcase.split()
+    words = self.downcase.gsub(/[^[[:word:]]\s]/, '').split()
     freq = Hash.new(0)
     words.each do |word|
       freq[word] += 1
