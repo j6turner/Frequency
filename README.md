@@ -33,8 +33,13 @@ bundle
 Usage
 -----
 
-Upon completion of the above steps in the Installation section,
-enter the following address in a web browser:
+Upon completion of the above steps in the Installation section, enter the following statement into the command line:
+
+```
+Ruby app.rb
+```
+
+Next, navigate to the following address in a Web browser:
 
 ```url
 localhost:4567/
