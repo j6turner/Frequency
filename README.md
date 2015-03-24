@@ -13,7 +13,7 @@ Installation
 Ruby v.2.2.0 was used to create this application.
 
 To run the primary application and/or any of the included
-RSpec files for testing, run either the included Gemfile
+RSpec files for testing, either run the included Gemfile
 or manually install the following gems:
 
 ```ruby
